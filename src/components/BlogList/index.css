@@ -1,0 +1,12 @@
+/* Write your CSS code here */
+.blogs-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.blogs-list-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  list-style-type: none;
+}

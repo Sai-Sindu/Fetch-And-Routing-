@@ -1,0 +1,56 @@
+/* Write your CSS code here */
+.blog-Link-card {
+  text-decoration: none;
+}
+.blog-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  border: 1px solid #d3d3d3;
+  border-radius: 10px;
+  padding: 10px;
+  width: 90%;
+}
+.blog-list-image {
+  height: 150px;
+  width: 50%;
+}
+.blog-info-card {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+}
+.blog-info-topic {
+  color: #8e8e8e;
+  font-size: 10px;
+}
+.blog-info-title {
+  color: #000000;
+  font-size: 15px;
+}
+.blog-profile-card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.blog-profile-img {
+  height: 25px;
+  width: 25px;
+}
+.blog-profile-name {
+  color: #8e8e8e;
+  font-size: 10px;
+  margin-left: 10px;
+}
+
+@media screen and (max-width: 577px) {
+  .blog-card {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .blog-list-image {
+    width: 100%;
+  }
+}
